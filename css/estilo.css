@@ -9,6 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
 
 }
 h1{
@@ -101,64 +102,19 @@ header{
     grid-row-start:3 ;
     grid-row-end:5 ;
 }
-  
-    
-   
+  /*footer*/
+  footer{
+    margin-top: auto;
+  }
+    /*contacto*/
+    .formulario{
+        display:flex;
+        align-items: center;
+        justify-content: center;
 
-
-
-
-    
-    
-   
-
-
-    
-
-
-
-
-
-/*resoluciones */
-
-/*
-@media screen and (min-width:1738px){
-    .contenedor_galeria{
-       grid-template-columns: 2fr;
-       grid-template-rows: repeat(5,1fr);}
     }
-    .item1{
-       grid-column-start:1 ;
-       grid-column-end:5 ;
-       grid-row-start:1;
-       grid-row-end:3 ;
-   }
-   .item2{
-       grid-column-start:5 ;
-       grid-column-end:9 ;
-       grid-row-start:1;
-       grid-row-end: 3;
-   }
-   .item3{
-       grid-column-start:;
-       grid-column-end: ;
-       grid-row-start:;
-       grid-row-end: ;
-      
-   }
-   .item4{
-       grid-column-start: ;
-       grid-column-end: ;
-       grid-row-start: ;
-       grid-row-end: ;
-   }
-   .item5{
-       grid-column-start:;
-       grid-column-end:;
-       grid-row-start:;
-       grid-row-end: ;
-   }
-    */
+
+    
 
 @media screen and (max-width:1738px){
  .contenedor_galeria{
